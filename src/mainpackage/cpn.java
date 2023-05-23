@@ -17,3 +17,4 @@ public class MainClass {
 
         System.out.println("Your CPN would be = " + CPN);
     }
+}
