@@ -1,5 +1,5 @@
-import java.util.Scanner;
 package mainpackage;
+import java.util.Scanner;
 
 public class MainClass {
     public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class MainClass {
         System.out.println("Enter test score=");
         int testResult = marks1.nextInt();
 
-        double CPN = calculateCPN(matriculationPercentage, intermediatePercentage, testResult);
+        double CPN = UtilityMethods.calculateCPN(matriculationPercentage, intermediatePercentage, testResult);
 
         System.out.println("Your CPN would be = " + CPN);
     }
