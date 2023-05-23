@@ -24,5 +24,6 @@ jobs:
     - name: Build with Ant
       run: ant -noinput -buildfile build.xml
     - name: Compile And Jar
-      run: ant compile
+      run: |
+           ant compile
            ant jar
