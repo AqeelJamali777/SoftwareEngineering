@@ -4,13 +4,13 @@
 </target>
 <target name="compile">
 <mkdir dir="build/classes"/> 
-<javac srcdir="src" destdir="build/classes" />
+<javac srcdir="src/mainpackage" destdir="build/classes" />
 </target>
 
 <target name="jar">
 <jar destfile="build/Main.jar" basedir="build/classes">
 <manifest>
-<attribute name="Main-Class" value="lab" />
+<attribute name="Main-Class" value="mainpackage.MainClass" />
 </manifest>
 </jar> 
 </target>
