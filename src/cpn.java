@@ -1,9 +1,9 @@
 
-import java.util.scanner;
+import java.util.*;
 class lab {
 public static void main (String []args)
 {
-Scanner marks1 =new Scanner(system.in);
+Scanner marks1 = new Scanner(System.in);
 
 System.out.println("Enter matriculation percentage accurate=");
 float matriculationPercentage=marks1.nextFloat();
