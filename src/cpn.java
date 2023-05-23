@@ -3,7 +3,7 @@ import java.util.scanner;
 class lab {
 public static void main (String []args)
 {
-Scanner marks 1=new Scanner(system.in);
+Scanner marks =new Scanner(system.in);
 
 System.out.println("Enter matriculation percentage accurate=");
 float matriculationPercentage=marks1.nextFloat();
